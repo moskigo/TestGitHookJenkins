@@ -13,7 +13,14 @@ namespace TestGitHookJenkins.Controllers
         {
             return View();
         }
-
        
+
+
+        public ActionResult Get()
+        {
+            return View();
+        }
+
+
     }
 }
