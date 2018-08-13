@@ -21,6 +21,9 @@ namespace TestGitHookJenkins.Controllers
             return View();
         }
 
-
+        public ActionResult GetName()
+        {
+            return View();
+        }
     }
 }
